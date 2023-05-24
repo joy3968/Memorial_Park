@@ -5,14 +5,14 @@
     <!-- Required meta tags-->
     <meta charset="utf-8">
     <!-- Title-->
-    <title>Kitzu - Personal Portfolio Template</title>
+    <title>추모 공원</title>
     <!-- Description-->
     <meta name="description" content="Personal Portfolio Template">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset("assets/img/favicons/apple-touch-icon.png") }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("img/favicons/favicon-32x32.png") }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("img/favicons/favicon-16x16.png") }}">
     <!-- Web fonts-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
     <!-- CSS vendors-->
@@ -41,7 +41,9 @@
 <!-- Navbar-->
 <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
         <!-- Navbar Logo-->
-        <img class="img-fluid" src="{{ asset("assets/img/img-kitzu-logo.png") }}" alt="Logo"></a>
+        <img class="img-fluid" src="{{ asset("assets/img/ribbon_logo.png") }}" alt="Logo">
+{{--        <span class="text-white">추모 공원</span>--}}
+    </a>
     <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
     <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
         <!-- Navbar menu-->
@@ -55,12 +57,12 @@
     </div>
 </nav>
 <!-- Home-->
-<section class="home-area element-cover-bg" id="home" style="background-image:url(img/home.jpg)">
+<section class="home-area element-cover-bg" id="home" style="background-image: '{{ asset("assets/img/home.jpg") }}'">
     <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-12 col-lg-8 home-content text-center">
-                <h1 class="home-name">Emma <span>Smith</span></h1>
-                <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Developer</b><b>Designer</b><b>Freelancer</b></span></h4>
+                <h1 class="home-name">당신과의 <span>추억들.</span></h1>
+                <h4 class="cd-headline clip home-headline"> <span class="cd-words-wrapper single-headline"><b class="is-visible">잊지 않겠습니다.</b><b>기억하겠습니다.</b><b>간직하겠습니다.</b></span></h4>
             </div>
         </div>
     </div>
