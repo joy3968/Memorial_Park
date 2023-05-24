@@ -153,8 +153,8 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="section-heading">
-                                    <p class="section-description">Services i offer to my clients</p>
-                                    <h2 class="section-title">가장 좋아하는 것</h2>
+                                    <p class="section-description">네이치님이 좋아했던 것들을 맞춰보세요</p>
+                                    <h2 class="section-title">네이치님의 Pick</h2>
                                 </div>
                             </div>
                         </div>
@@ -162,43 +162,43 @@
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
-                                    <h6 class="service-title">Design Trends</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">가장 좋아했던 스포츠</h6>
+                                    <p class="service-description">축구</p>
                                 </div>
                             </div>
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-md-images"></i>
-                                    <h6 class="service-title">PSD Design</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">키우던 강아지 이름은?</h6>
+                                    <p class="service-description">푸피</p>
                                 </div>
                             </div>
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
-                                    <h6 class="service-title">Customer Support</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">첫째 이름은?</h6>
+                                    <p class="service-description">호돌이</p>
                                 </div>
                             </div>
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-logo-wordpress"></i>
-                                    <h6 class="service-title">Web Development</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">가장 좋아하던 음료는</h6>
+                                    <p class="service-description">포카리 스웨트</p>
                                 </div>
                             </div>
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-md-move"></i>
-                                    <h6 class="service-title">Fully Responsive</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">가장 좋아했던 과일은</h6>
+                                    <p class="service-description">토마토</p>
                                 </div>
                             </div>
                             <!-- Single service-->
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-service"><i class="icon service-icon ion-ios-rocket"></i>
-                                    <h6 class="service-title">Branding</h6>
-                                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h6 class="service-title">그의 직업은</h6>
+                                    <p class="service-description">의사</p>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="section-heading">
-                                    <p class="section-description">What my clients think about me</p>
+                                    <p class="section-description">네이치님이 남겼던 어록을 보며 그를 추억해보세요</p>
                                     <h2 class="section-title">그가 남긴 어록들</h2>
                                 </div>
                             </div>
@@ -221,12 +221,12 @@
                                         <div class="review-client">
                                             <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{{ asset("assets/img/client-1.jpg") }}" alt="Client">
                                                 <div class="client-details">
-                                                    <h6 class="client-name">Julia Sakura</h6><span class="client-role">Envato Customer</span>
+                                                    <h6 class="client-name">네이치</h6><span class="client-role">중요한 시험을 마친 후 어느날.</span>
                                                 </div>
                                             </div>
                                         </div><i class="icon ion-md-quote review-icon"></i>
                                     </div>
-                                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                                    <p class="review-content">"오늘을 최선으로 살고, 내일을 기대하며 어제를 되돌아보라." - 이 어록은 고인이 삶을 최대한 활기차게 살아가며 미래에 대한 희망을 가져야 한다는 메시지를 전달합니다. 과거의 경험을 돌아보면서 배움을 얻으며, 현재에 최선을 다하는 것이 중요하다는 것을 강조합니다.</p>
                                 </div>
                             </div>
                             <div class="slider-item">
@@ -234,14 +234,14 @@
                                 <div class="single-review swiper-slide">
                                     <div class="review-header d-flex justify-content-between">
                                         <div class="review-client">
-                                            <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-2.jpg" alt="Client">
+                                            <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{{ asset("assets/img/client-2.jpg") }}" alt="Client">
                                                 <div class="client-details">
-                                                    <h6 class="client-name">John Santana</h6><span class="client-role">Entrepreneur</span>
+                                                    <h6 class="client-name">네이치</h6><span class="client-role">한창이었을 나이 언제쯤.</span>
                                                 </div>
                                             </div>
                                         </div><i class="icon ion-md-quote review-icon"></i>
                                     </div>
-                                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                                    <p class="review-content">"행복은 작은 것들에서 발견된다." - 이 어록은 고인이 행복을 단순하고 일상적인 순간에서 찾아야 한다는 생각을 나타냅니다. 큰 성취나 물질적인 것보다는 가족과 친구들과의 소중한 시간, 자연의 아름다움을 감상하는 것 등 작은 것들에서 행복을 발견할 수 있다는 것을 강조합니다.</p>
                                 </div>
                             </div>
                             <div class="slider-item">
@@ -251,7 +251,7 @@
                                         <div class="review-client">
                                             <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-3.jpg" alt="Client">
                                                 <div class="client-details">
-                                                    <h6 class="client-name">Maria Wilson</h6><span class="client-role">Envato Customer</span>
+                                                    <h6 class="client-name">네이치</h6><span class="client-role">한창이었을 나이 언제쯤.</span>
                                                 </div>
                                             </div>
                                         </div><i class="icon ion-md-quote review-icon"></i>
@@ -345,7 +345,7 @@
                             <!-- Education part-->
                             <div class="col-12 col-md-6">
                                 <div class="col-block education">
-                                    <h3 class="col-title">Education</h3>
+{{--                                    <h3 class="col-title">Education</h3>--}}
                                     <div class="resume-item"><span class="item-arrow"></span>
                                         <h5 class="item-title">출생</h5><span class="item-details">서울에서 출생 / 1995</span>
                                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
@@ -363,7 +363,7 @@
                             <!-- Experience part-->
                             <div class="col-12 col-md-6">
                                 <div class="col-block experience">
-                                    <h3 class="col-title">Experience</h3>
+{{--                                    <h3 class="col-title">Experience</h3>--}}
                                     <div class="resume-item"><span class="item-arrow"></span>
                                         <h5 class="item-title">결혼</h5><span class="item-details">Adobe / 2015 - 2017</span>
                                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
